@@ -1,0 +1,41 @@
+.card {
+    width: 40%;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* #section1 {
+    display: block;
+}
+
+#section2 {
+    display: block;
+}
+
+#section3 {
+    display: none;
+}
+
+#section4 {
+    display: none;
+} */
+
+
+/* #nextEmail {}
+
+#nextPass {}
+
+#nextTerms {}
+
+
+#terms{}
+
+
+*/
+
+.wrong {
+    color: red;
+}

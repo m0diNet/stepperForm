@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Stepper Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ee21a7d487.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stepper Form</h1>
+
+        <form>
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4 pt-3 pl-3">
+                        <span class="badge badge-light">1</span>
+                    </div>
+                    <div class="col-md-8 pt-3 pl-3">
+                        <h5 class="card-title">Step 1</h5>
+                    </div>
+                </div>
+                <div class="row no-gutters" id="section1">
+                    <div class="col-md-4 p-3">
+                        <span id="errorEmail"></span>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+
+                            <div class="form-group">
+                                <label for="email">Your email</label>
+                                <input type="text" class="form-control" name="email" id="email" placeholder="Your Email">
+                                <a href="#" class="btn btn-primary btn-sm mt-2" id="nextEmail">Next</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4 p-3">
+                        <span class="badge badge-light">2</span>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Step 2</h5>
+                            <div class="form-group" id="section2">
+                                <label for="password">Your Password</label>
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Your Password">
+                                <a href="#" class="btn btn-primary btn-sm mt-2" id="backPass">Back</a>
+                                <a href="#" class="btn btn-primary btn-sm mt-2" id="nextPass">Next</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4 p-3">
+                        <span class="badge badge-light">3</span>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Step 3</h5>
+                            <div class="form-group" id="section3">
+                                <input type="checkbox" name="terms" class="form-check-input" id="terms">
+                                <label class="form-check-label" for="terms" id="checking">Please agree to our terms and
+                                    conditions</label>
+                                <a href="#" class="btn btn-primary btn-sm mt-2" id="backTerms">Back</a>
+                                <a href="#" class="btn btn-primary btn-sm mt-2" id="nextTerms">Next</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4 p-3">
+                        <span class="badge badge-light">4</span>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Step 4</h5>
+                            <div class="form-group" id="section4">
+                                <p class="card-text">Thank You</p>
+                                <a href="#" class="btn btn-primary btn-sm mt-2" id="backSubmit">Back</a>
+                                <button type="button" class="btn btn-primary btn-sm d-inline mt-2" id="buttonSubmit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
